@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testing.vip18.MavenVipJunit18.LoginJunitTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE! - in testing.vip18.MavenVipJunit18.LoginJunitTest
+test1[用户名roy，密码123456,预期恭喜](testing.vip18.MavenVipJunit18.LoginJunitTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.junit.ComparisonFailure: 登录测试的结果为 expected:<恭喜[]> but was:<恭喜[您，登录成功]>
+	at testing.vip18.MavenVipJunit18.LoginJunitTest.test1(LoginJunitTest.java:51)
+
+test1[用户名Roy，密码123456,预期恭喜您，登录成功](testing.vip18.MavenVipJunit18.LoginJunitTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.junit.ComparisonFailure: 登录测试的结果为 expected:<[恭喜您，登录成功]> but was:<[用户名或密码错误]>
+	at testing.vip18.MavenVipJunit18.LoginJunitTest.test1(LoginJunitTest.java:51)
+
+test1[用户名riiw，密码1234567,预期  ](testing.vip18.MavenVipJunit18.LoginJunitTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.junit.ComparisonFailure: 登录测试的结果为 expected:<[  ]> but was:<[用户名或密码错误]>
+	at testing.vip18.MavenVipJunit18.LoginJunitTest.test1(LoginJunitTest.java:51)
+

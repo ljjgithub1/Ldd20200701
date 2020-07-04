@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testing.vip18.MavenVipJunit18.LoginJunitTest" time="0.036" tests="6" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\VIP05\eclipse_workspace\MavenVipJunit18"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\VIP05\eclipse_workspace\MavenVipJunit18"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\VIP05\Maven05\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jre1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)C:\Windows\system32;\NetSarang\Xftp 6\;E:\VIP05\xshell\;E:\VIP05\Maven05\apache-maven-3.6.2\bin;C:\Windows\system32;E:\fiddler;."/>
+    <property name="maven.conf" value="E:\VIP05\Maven05\apache-maven-3.6.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="E:\VIP05\Maven05\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="admin"/>
+    <property name="java.class.path" value="E:\VIP05\Maven05\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\VIP05\Maven05\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test1[用户名roy，密码123456,预期恭喜]" classname="testing.vip18.MavenVipJunit18.LoginJunitTest" time="0.009">
+    <failure message="登录测试的结果为 expected:&lt;恭喜[]&gt; but was:&lt;恭喜[您，登录成功]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 登录测试的结果为 expected:<恭喜[]> but was:<恭喜[您，登录成功]>
+	at testing.vip18.MavenVipJunit18.LoginJunitTest.test1(LoginJunitTest.java:51)
+]]></failure>
+    <system-out><![CDATA[----------测试前准备，完成ls实例化---------------
+恭喜您，登录成功！！
+]]></system-out>
+  </testcase>
+  <testcase name="test1[用户名roy123，密码123456,预期用户名或密码错误]" classname="testing.vip18.MavenVipJunit18.LoginJunitTest" time="0.01"/>
+  <testcase name="test1[用户名roy，密码12344444444444444888,预期用户名或密码长是3--16位]" classname="testing.vip18.MavenVipJunit18.LoginJunitTest" time="0.003"/>
+  <testcase name="test1[用户名null，密码1234,预期用户名或密码不能为空]" classname="testing.vip18.MavenVipJunit18.LoginJunitTest" time="0.002"/>
+  <testcase name="test1[用户名Roy，密码123456,预期恭喜您，登录成功]" classname="testing.vip18.MavenVipJunit18.LoginJunitTest" time="0.005">
+    <failure message="登录测试的结果为 expected:&lt;[恭喜您，登录成功]&gt; but was:&lt;[用户名或密码错误]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 登录测试的结果为 expected:<[恭喜您，登录成功]> but was:<[用户名或密码错误]>
+	at testing.vip18.MavenVipJunit18.LoginJunitTest.test1(LoginJunitTest.java:51)
+]]></failure>
+    <system-out><![CDATA[用户名或密码错误
+]]></system-out>
+  </testcase>
+  <testcase name="test1[用户名riiw，密码1234567,预期  ]" classname="testing.vip18.MavenVipJunit18.LoginJunitTest" time="0.005">
+    <failure message="登录测试的结果为 expected:&lt;[  ]&gt; but was:&lt;[用户名或密码错误]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 登录测试的结果为 expected:<[  ]> but was:<[用户名或密码错误]>
+	at testing.vip18.MavenVipJunit18.LoginJunitTest.test1(LoginJunitTest.java:51)
+]]></failure>
+    <system-out><![CDATA[用户名或密码错误
+]]></system-out>
+  </testcase>
+</testsuite>
